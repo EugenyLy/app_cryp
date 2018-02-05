@@ -1,0 +1,127 @@
+<% layout('layout/page.ejs') %>
+<% block('title', 'Cryptocurrency')%>
+
+<section class="s-cryptocur">
+                <div class="container">
+                    <div class="row s_cryptocur_col">
+                        <div class="s-cryptocur-header">
+                            <h2><%=translation.CRYP_PAIRS%></h2>
+                        </div>
+                        <div class="s-cryptocur-text">
+                            <h3><%=translation.CRYPTOCUR_IS_OP%></h3>
+
+                            <p>
+                                <%=translation.CRYPTOCUR_IS%>
+                            </p>
+
+                        </div>
+                        <div class="s_cryptocur_head_vars">
+                            <h3>
+                                <%=translation.CRYPTOCUR_ON_PLATFORM%>
+                            </h3>
+                            <div class="s_cryptocur_vars">
+                                <div class="s_cryptocur_v">
+                                    <i class="icon-dollar-currency-symbol-svgrepo-com"></i>
+                                    <h3>Fiat</h3>
+                                    <a href="#fiat"><h4>Fiat</h4></a>
+                                </div>
+                                <div class="s_cryptocur_v">
+                                    <i class="icon-fa-icon-ethereum"></i>
+                                    <h3>ETH</h3>
+                                    <a href="#eth"><h4>Ethereum</h4></a>
+                                </div>
+                                <div class="s_cryptocur_v">
+                                    <i class="icon-litecoin"></i>
+                                    <h3>Ltc</h3>
+                                    <a href="#ltc"><h4>Litecoin</h4></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="fiat" class="s_cryptocur_f">
+                            <h3>Fiat currency</h3>
+                            <table border="1" cellspacing="0" width="500" cellpadding="10">
+                                <tr>
+                                    <th><%=translation.CRYPTOCUR_ABBREV%></th>
+                                    <th><%=translation.CRYPTOCUR_ON_FULL_NAME%></th>
+
+                                </tr>
+                                <tr>
+                                    <td>BTC/EUR</td>
+                                    <td>BitCoin vs Euro</td>
+
+                                </tr>
+                                <tr>
+                                    <td>BTC/USD</td>
+                                    <td>BitCoin vs US Dollar</td>
+                                </tr>
+                                <tr>
+                                    <td>BTC/JPY</td>
+                                    <td>BitCoin vs US Japanese Yen</td>
+                                </tr>
+                                <tr>
+                                    <td>BTC/CNH</td>
+                                    <td>BitCoin vs US Chinese Offshore Yuan</td>
+                                </tr>
+                                <tr>
+                                    <td>ETH/JPY</td>
+                                    <td>Ethereum vs Japanese Yen</td>
+                                </tr>
+                                <tr>
+                                    <td>ETH/CNH</td>
+                                    <td>Ethereum vs Chinese Offshore Yuan</td>
+                                </tr>
+                                <tr>
+                                    <td>LTC/RUB</td>
+                                    <td>LiteCoin vs Russian Ruble</td>
+                                </tr>
+                                <tr>
+                                    <td>LTC/USD</td>
+                                    <td>LiteCoin vs US Dollar</td>
+                                </tr>
+                                <tr>
+                                    <td>LTC/CNH</td>
+                                    <td>LiteCoin vs Chinese Offshore Yuan</td>
+                                </tr>
+                            </table>
+                        </div>
+                         <div id="eth" class="s_cryptocur_eth">
+                            <h3>Etherium (ETH)</h3>
+                            <table border="1" cellspacing="0" width="500" cellpadding="10">
+                                <tr>
+                                    <th><%=translation.CRYPTOCUR_ABBREV%></th>
+                                    <th><%=translation.CRYPTOCUR_ON_FULL_NAME%></th>
+
+                                </tr>
+                                <tr>
+                                    <td>ETH\BTC</td>
+                                    <td>Ethereum vs Bitcoin</td>
+
+                                </tr>
+                                <tr>
+                                    <td>ETH\LTC</td>
+                                    <td>Ethereum vs Litecoin</td>
+                                </tr>
+
+                            </table>
+                        </div>
+                         <div id="ltc" class="s_cryptocur_ltc">
+                            <h3>Litecoin (LTC)</h3>
+                            <table border="1" cellspacing="0" width="500" cellpadding="10">
+                                <tr>
+                                    <th><%=translation.CRYPTOCUR_ABBREV%></th>
+                                    <th><%=translation.CRYPTOCUR_ON_FULL_NAME%></th>
+
+                                </tr>
+                                <tr>
+                                    <td>LTC\BTC</td>
+                                    <td>LiteCoin vs Bitcoin</td>
+
+                                </tr>
+
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+

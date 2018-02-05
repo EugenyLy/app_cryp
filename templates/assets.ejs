@@ -1,0 +1,282 @@
+<% layout('layout/page.ejs') %>
+<% block('title', 'Assets')%>
+
+<section class="s-assets">
+                <div class="container">
+                    <div class="row s_assets_col">
+
+                        <div class="s-assets-header">
+                            <h2><%=translation.ASSETS_HEADER%></h2>
+                        </div>
+                        <div class="s-assets-text">
+                            <h3><%=translation.ASSETS_CRYP_COMPANY%></h3>
+
+                            <ul>
+                                <li><h3><%=translation.ASSETS_COMPANY_STOCKS%></h3>
+                                   <%=translation.ASSETS_COMPANY_STOCKS_TXT%> </li>
+
+                      <li><h3><%=translation.ASSETS_CUR_PAIRS%></h3>
+                                   <%=translation.ASSETS_CUR_PAIRS_TXT%></li>
+
+                        <li><h3><%=translation.ASSETS_INDICES%></h3>
+                                 <%=translation.ASSETS_INDICES_TXT%> </li>
+
+                        <li><h3><%=translation.ASSETS_COMMODITIES%></h3>
+                                  <%=translation.ASSETS_COMMODITIES_TXT%> </li>
+
+                       </ul>
+
+                        </div>
+                        <div class="s_assets_head_vars">
+                            <h3>
+                               <%=translation.ASSETS_ON_PLATFORM%>
+                            </h3>
+                            <div class="s_assets_vars">
+                                <div class="s_assets_v">
+                                    <i class="icon-money"></i>
+                                    <h3><%=translation.ASSETS_COMPANY_STOCKS%></h3>
+                                    <a href="#stocks"><h4><%=translation.ASSETS_STOCKS%></h4></a>
+                                </div>
+                                <div class="s_assets_v">
+                                    <i class="icon-pair-of-banknotes"></i>
+                                    <h3><%=translation.ASSETS_CUR_PAIRS%></h3>
+                                    <a href="#cur"><h4><%=translation.ASSETS_CURRENCY%></h4></a>
+                                </div>
+                                <div class="s_assets_v">
+                                    <i class="icon-line-chart"></i>
+                                    <h3><%=translation.ASSETS_STOCK_INDICES%></h3>
+                                    <a href="#ind"><h4><%=translation.ASSETS_INDICES%></h4></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="stocks" class="s_assets_stock">
+                            <h3><%=translation.ASSETS_STOCKS%></h3>
+                            <table border="1" cellspacing="0" width="500" cellpadding="10">
+                                <tr>
+                                    <th><%=translation.ASSETS_ASSETS%></th>
+                                    <th><%=translation.ASSETS_ASSETS_CAT%></th>
+
+                                </tr>
+                                <tr>
+                                    <td>Alibaba</td>
+                                    <td>Stocks</td>
+
+                                </tr>
+                                <tr>
+                                    <td>Bank of America</td>
+                                    <td>Stocks</td>
+                                </tr>
+                                <tr>
+                                    <td>Amazon</td>
+                                    <td>Stocks</td>
+                                </tr>
+                                <tr>
+                                    <td>Apple</td>
+                                    <td>Stocks</td>
+                                </tr>
+                                <tr>
+                                    <td>Boeing</td>
+                                    <td>Stocks</td>
+                                </tr>
+                                <tr>
+                                    <td>Facebook</td>
+                                    <td>Stocks</td>
+                                </tr>
+                                <tr>
+                                    <td>FedEx</td>
+                                    <td>Stocks</td>
+                                </tr>
+                                <tr>
+                                    <td>Ferrari</td>
+                                    <td>Stocks</td>
+                                </tr>
+                                <tr>
+                                    <td>eBay</td>
+                                    <td>Stocks</td>
+                                </tr>
+                                <tr>
+                                    <td>IBM</td>
+                                    <td>Stocks</td>
+                                </tr>
+                                <tr>
+                                    <td>JP Morgan</td>
+                                    <td>Stocks</td>
+                                </tr>
+                                <tr>
+                                    <td>Mastercard</td>
+                                    <td>Stocks</td>
+                                </tr>
+                                <tr>
+                                    <td>McDonald’s</td>
+                                    <td>Stocks</td>
+                                </tr>
+                                <tr>
+                                    <td>PepsiCo</td>
+                                    <td>Stocks</td>
+                                </tr>
+                                <tr>
+                                    <td>P&G</td>
+                                    <td>Stocks</td>
+                                </tr>
+                                <tr>
+                                    <td>Nvidia</td>
+                                    <td>Stocks</td>
+                                </tr>
+                                <tr>
+                                    <td>Philip Morris</td>
+                                    <td>Stocks</td>
+                                </tr>
+                                <tr>
+                                    <td>Starbucks</td>
+                                    <td>Stocks</td>
+                                </tr>
+                                <tr>
+                                    <td>Tesla Motor</td>
+                                    <td>Stocks</td>
+                                </tr>
+                                <tr>
+                                    <td>Walmart</td>
+                                    <td>Stocks</td>
+                                </tr>
+                                <tr>
+                                    <td>eBay</td>
+                                    <td>Stocks</td>
+                                </tr>
+                                <tr>
+                                    <td>VISA</td>
+                                    <td>Stocks</td>
+                                </tr>
+                            </table>
+                        </div>
+                         <div id="cur" class="s_assets_cur">
+                            <h3><%=translation.ASSETS_CUR_PAIRS%></h3>
+                            <table border="1" cellspacing="0" width="500" cellpadding="10">
+                                <tr>
+                                    <th><%=translation.ASSETS_ASSETS%></th>
+                                    <th><%=translation.ASSETS_ASSETS_CAT%></th>
+
+                                </tr>
+                                <tr>
+                                    <td>EUR/USD</td>
+                                    <td>Currency</td>
+
+                                </tr>
+                                <tr>
+                                    <td>USD/JPY</td>
+                                    <td>Currency</td>
+                                </tr>
+                                <tr>
+                                    <td>GBP/USD</td>
+                                    <td>Currency</td>
+                                </tr>
+                                <tr>
+                                    <td>USD/CHF</td>
+                                    <td>Currency</td>
+                                </tr>
+                                <tr>
+                                    <td>USD/CAD</td>
+                                    <td>Currency</td>
+                                </tr>
+                                <tr>
+                                    <td>EUR/JPY</td>
+                                    <td>Currency</td>
+                                </tr>
+                                <tr>
+                                    <td>AUD/USD</td>
+                                    <td>Currency</td>
+                                </tr>
+                                <tr>
+                                    <td>CAD/JPY</td>
+                                    <td>Currency</td>
+                                </tr>
+                                <tr>
+                                    <td>EUR/GBP</td>
+                                    <td>Currency</td>
+                                </tr>
+                                <tr>
+                                    <td>EUR/CHF</td>
+                                    <td>Currency</td>
+                                </tr>
+                                <tr>
+                                    <td>GBP/JPY</td>
+                                    <td>Currency</td>
+                                </tr>
+                                <tr>
+                                    <td>GBP/CHF</td>
+                                    <td>Currency</td>
+                                </tr>
+                                <tr>
+                                    <td>EUR/NZD</td>
+                                    <td>Currency</td>
+                                </tr>
+                                <tr>
+                                    <td>USD/SEK</td>
+                                    <td>Currency</td>
+                                </tr>
+                                <tr>
+                                    <td>USD/RUB</td>
+                                    <td>Currency</td>
+                                </tr>
+                                <tr>
+                                    <td>USD/TRY</td>
+                                    <td>Currency</td>
+                                </tr>
+                            </table>
+                        </div>
+                         <div id="ind" class="s_assets_indices">
+                            <h3><%=translation.ASSETS_STOCK_INDICES%></h3>
+                            <table border="1" cellspacing="0" width="500" cellpadding="10">
+                                <tr>
+                                    <th><%=translation.ASSETS_ASSETS%></th>
+                                    <th><%=translation.ASSETS_ASSETS_CAT%></th>
+
+                                </tr>
+                                <tr>
+                                    <td>Dow 30</td>
+                                    <td>Stock indices</td>
+
+                                </tr>
+                                <tr>
+                                    <td>WIG20</td>
+                                    <td>Stock indices</td>
+                                </tr>
+                                <tr>
+                                    <td>Nasdaq</td>
+                                    <td>Stock indices</td>
+                                </tr>
+                                <tr>
+                                    <td>DAX</td>
+                                    <td>Stock indices</td>
+                                </tr>
+                                <tr>
+                                    <td>FTSE 100</td>
+                                    <td>Stock indices</td>
+                                </tr>
+                                <tr>
+                                    <td>IBEX 35</td>
+                                    <td>Stock indices</td>
+                                </tr>
+                                <tr>
+                                    <td>SMI</td>
+                                    <td>Stock indices</td>
+                                </tr>
+                                <tr>
+                                    <td>BEL 20</td>
+                                    <td>Stock indices</td>
+                                </tr>
+                                <tr>
+                                    <td>S&P/ASX 200</td>
+                                    <td>Stock indices</td>
+                                </tr>
+                                <tr>
+                                    <td>Hang Seng</td>
+                                    <td>Stock indices</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+

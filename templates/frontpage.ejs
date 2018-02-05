@@ -1,0 +1,374 @@
+<% layout('layout/page.ejs') %>
+<% block('title', 'First cryptocurrency Binary Options broker | Cryptobo')%>
+
+    <section class="head">
+        <header class="main-head">
+
+
+
+
+            <div class="container">
+                <div class="row">
+
+                    <ul class="header_main_left_mob">
+                        <li><h1><%=translation.PROFITABLE%></h1></li>
+                        <li><h1><%=translation.INVESTMENTS%></h1></li>
+                        <li><h1><%=translation.INBITCOIN%></h1></li>
+                    </ul>
+
+
+                    <div class="main_flex">
+                        <div class="main_txt_pc_img">
+                            <div class="col-md-5 main_text">
+                                <ul class="header_main_left">
+                                    <li><h1><%=translation.PROFITABLE%></h1></li>
+                                    <li><h1><%=translation.INVESTMENTS%></h1></li>
+                                    <li><h1><%=translation.INBITCOIN%></h1></li>
+                                </ul>
+
+                                <div class="cnt_visits">
+                                    <div class="cnt_icon_num">
+                                        <i class="icon-traders-online"></i>
+                                        <div class="value"><span id="users_online"></span></div>
+                                        <p><%=translation.TRADERS%><br><%=translation.ONLINE%></p>
+                                    </div>
+                                    <div class="cnt_icon_num">
+                                        <i class="icon-total-registred"></i>
+                                        <div class="value"><span id="users_registered"></span></div>
+                                        <p><%=translation.TOTAL%><br><%=translation.REGISTERED%> </p>
+                                    </div>
+                                    <div class="cnt_icon_num">
+                                        <i class="icon-best-today"></i>
+                                        <div class="value"><span id="bets"></span></div>
+                                        <p><%=translation.BETS%><br><%=translation.TODAY%></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-7 col-sm-12 col-xs-12 pc-main-img">
+                                <img class='pc-main-arr' src="img/arr_to_log.png">
+                                <img class="pc-main-ap" src="img/pc_main.png">
+                                <div class="pc-main-text"><p><%=translation.MULTI_V%></p>
+                                    <img src="img/pc-arr-up.png">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="main_reg_now_arrow">
+                            <div class="get_reg_now">
+                                <div class="get_reg_header"><h3><%=translation.GET500SATOSHI%> <span class="satoshi_gr"><%=translation.GET500SATOSHI_GR%></span> <%=translation.GET500SATOSHI_TXT%></h3></div>
+                                <div class="get_reg_free"><h1><%=translation.FREE%></h1></div>
+                                <div class="get_reg_sign"><a target="sign_up" href="https://trading.cryptobo.com/#register"><h4><%=translation.SIGN_UP%></h4></a></div>
+                            </div>
+                            <div class="get_reg_arr_up">
+                                <img src="img/arr-reg-block.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+ </header>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <section class="pagesect" id="d1" >
+
+    <div id="container" style="width: 100%; overflow: hidden!important; height: 400px; margin: 0;display:block; position: absolute; right: 3%; ">
+
+ </div>
+
+        <div class="s2_header">
+            <h2><%=translation.HOW_IT_WORKS%></h2>
+
+        </div>
+        <div class="sect2">
+            <div class="container">
+                <div class="row sect2-items">
+                    <div class="col-sm-4 s2-bl">
+                        <div class="sect2-item">
+                        <span class="img-wrap">
+                            <i class="icon-bitcoin-add"></i>
+                        </span>
+                            <h3><%=translation.REG_DEP%></h3>
+                            <div class="s2_text_arr">
+                                <span><%=translation.SIMPLE_REG%> </span>
+                                <div class="s2_arr_right">
+                                    <img src="img/icons/section_2/1448710982-arrow-right-01.png">
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="col-sm-4 s2-bl">
+                        <div class="sect2-item">
+                        <span class="img-wrap">
+                            <i class="icon-get-profit"></i>
+                        </span>
+                            <h3><%=translation.GET_PROF%></h3>
+
+                            <div class="s2_text_arr">
+                                <span><%=translation.GET_PROF_TXT%> </span>
+                                <div class="s2_arr_right">
+                                    <img src="img/icons/section_2/1448710982-arrow-right-01.png">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-4 s2-bl">
+                        <div class="sect2-item">
+                        <span class="img-wrap">
+                            <i class="icon-bitcoin-up"></i>
+                        </span>
+                            <h3><%=translation.WINDRAW%></h3>
+                            <span><%=translation.GET_WIN%></span>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+                <div class="s2_arr_down">
+                    <img src="img/icons/section_2/s2_arr_down.svg">
+                </div>
+                <div class="s2_icon_dep_txt">
+                    <a target="buy_bit" href="/traders/how_to_buy">
+                        <div class="s2_border_dep">
+
+                            <img src="img/icons/section_2/5.png">
+                            <i class="icon-cart"></i>
+                            <h3 class="fontSizeRus"><%=translation.HOW_TO_DEP%></h3>
+                        </div>
+                    </a>
+                    <span class="instr_open"><%=translation.INSTRUCTION%></span>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+<section id="d2" class="s3_video">
+        <div class="container">
+            <div class="row">
+                <div class="s3_header">
+                    <h2><%=translation.ABOUT_US%></h2>
+                    <div class="s3_span_arr">
+                        <span><%=translation.LEARN_ABOUT%></span>
+                        <img src="img/icons/section_3/s3_arr_down.png">
+                    </div>
+                </div>
+                <div class="s3_video_block_mob">
+                    <div id='vid' class="s3_video_block">
+
+                    </div>
+                </div>
+
+                <div class="s3_txt_sign">
+                    <h3><%=translation.REG_NOW%><br>
+                        <%=translation.GET500SATOSHI_F%><span> <%=translation.GET500SATOSHI_S%></span></h3>
+                    <div class="s3_reg_sign"><a target="sign_up" href="https://trading.cryptobo.com/#register"><h4><%=translation.SIGN_UP%></h4></a></div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="d3" class="s4_advantages">
+        <div class="container">
+            <div class="row">
+                <div class="s4_header">
+                    <h2><%=translation.OUR_ADV%></h2>
+                </div>
+                <div class="s4_adv_blocks">
+                    <div class="col-lg-4 col-md6 col-sm-6 col-xs-12 s4_adv">
+                <span class="s4_icon_adv">
+                    <i class="icon-brok"></i>
+                </span>
+                        <div class="s4_icon_txt">
+                            <h3><%=translation.CRYP_B%></h3>
+                            <span><%=translation.CRYP_B_TXT%></span>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md6 col-sm-6 col-xs-12 s4_adv">
+                <span class="s4_icon_adv">
+                    <i class="icon-minimum-deals"></i>
+                </span>
+                        <div class="s4_icon_txt">
+                            <h3><%=translation.MIN_DEALS%></h3>
+                            <span><%=translation.MIN_DEALS_TXT%></span>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md6 col-sm-6 col-xs-12 s4_adv">
+                <span class="s4_icon_adv">
+                    <i class="icon-bitcoin-in-hand"></i>
+                </span>
+                        <div class="s4_icon_txt">
+                            <h3><%=translation.BONUS_T%></h3>
+                            <span class="green_txt_und"><%=translation.BONUS_T_TXT%></span>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md6 col-sm-6 col-xs-12 s4_adv">
+                <span class="s4_icon_adv">
+                    <i class="icon-Quote-data"></i>
+                </span>
+                        <div class="s4_icon_txt">
+                            <h3><%=translation.QUOTE%></h3>
+                            <span><%=translation.QUOTE_TXT%></span>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md6 col-sm-6 col-xs-12 s4_adv">
+                <span class="s4_icon_adv">
+                    <i class="icon-bitcoin-up"></i>
+                </span>
+                        <div class="s4_icon_txt">
+                            <h3><%=translation.FUNDS_W%></h3>
+                            <span><%=translation.FUNDS_W_TXT%></span>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md6 col-sm-6 col-xs-12 s4_adv">
+
+                <span class="s4_icon_adv">
+                    <i class="icon-get-profit"></i>
+                </span>
+                        <div class="s4_icon_txt">
+                            <h3><%=translation.PROFIT%></h3>
+                            <span><%=translation.PROFIT_TXT%></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="d4" class="s5_start_td">
+        <div class="container">
+            <div class="row">
+                <div class="s5_header">
+                    <h2><%=translation.START_T%></h2>
+                </div>
+
+
+                        <div class="col-md-6 s5_acc_block">
+                            <h4><%=translation.ACC%></h4>
+                            <div class="s5_border_mob">
+                                <div class="s5_acc_txt">
+
+                            <span><%=translation.START_T_F%></span>
+                                    <h1>REAL</h1>
+
+                                </div>
+                                <div class="s5_btn_acc"><a target="sign_up" href="https://trading.cryptobo.com/#register"><h4><%=translation.OPEN_ACC%></h4></a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 s5_buy_block">
+                            <h4><%=translation.BUY%></h4>
+                            <div class="s5_border_mob">
+                                <div class="s5_buy_txt">
+                                    <h1>BITCOIN</h1>
+                                    <span><%=translation.START_T_S%></span>
+
+                                </div>
+                                <div class="s5_btn_buy"><a target="how_to_buy_b" href="/traders/how_to_buy"><h4><%=translation.BUY_BIT%></h4></a></div>
+                            </div>
+                        </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="d5" class="s6_why">
+        <div class="container">
+            <div class="row">
+                <div class="s6_header">
+                    <h2><%=translation.WHY_CRYPT%></h2>
+                </div>
+
+
+                        <div class="s6_reasons">
+                            <div class="col-lg-4 col-md6 col-sm-6 col-xs-12 s6_icon_txt">
+                            <span class="s6_img">
+                            <i class="icon-365"></i>
+                            </span>
+                                <h4><%=translation.PLATFORM_W%></h4>
+                            </div>
+
+
+                            <div class="col-lg-4 col-md6 col-sm-6 col-xs-12 s6_icon_txt">
+                            <span class="s6_img">
+                            <i class="icon-bitcoin-down"></i>
+                            </span>
+                                <h4><%=translation.INIT_DEP%></h4>
+                            </div>
+
+
+                            <div class="col-lg-4 col-md6 col-sm-6 col-xs-12 s6_icon_txt">
+                            <span class="s6_img">
+                            <i class="icon-web"></i>
+                                </span>
+                                <h4><%=translation.COMP_CEN%></h4>
+                            </div>
+
+
+                            <div class="col-lg-4 col-md6 col-sm-6 col-xs-12 s6_icon_txt">
+                            <span class="s6_img">
+                            <i class="icon-confidential"></i>
+                            </span>
+                                <h4><%=translation.INFO_CONF%></h4>
+                            </div>
+
+
+                            <div class="col-lg-4 col-md6 col-sm-6 col-xs-12 s6_icon_txt">
+                            <span class="s6_img">
+                            <i class="icon-online"></i>
+                            </span>
+                                <h4><%=translation.ONLINE_TRANS%> <a target="bcres" href="https://blockchain.info/"> blockchain.info.</a> </h4>
+                            </div>
+
+
+                            <div class="col-lg-4 col-md6 col-sm-6 col-xs-12 s6_icon_txt">
+                            <span class="s6_img">
+                            <i class="icon-fast"></i>
+                            </span>
+                                <h4><%=translation.FIRST_SEC%></h4>
+                            </div>
+
+                        </div>
+
+
+
+            </div>
+        </div>
+    </section>

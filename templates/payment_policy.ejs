@@ -1,0 +1,53 @@
+<% layout('layout/page.ejs') %>
+<% block('title', 'Payment policy') %>
+
+<section class="s-paymentp">
+    <div class="container">
+        <div class="row s_paymentp_col">
+            <div class="s-paymentp-header">
+                <h2><%= translation.PAYMENT_POL_HEADER %></h2>
+            </div>
+            <div class="s-paymentp-text">
+
+                <ul>
+                    <li><h3><%= translation.PAYMENT_POL_H %></h3>
+                        <%= translation.PAYMENT_POL_H_TXT %>
+                    </li>
+
+                    <li><h3><%= translation.PAYMENT_POL_CR %></h3>
+                        <%= translation.PAYMENT_POL_CR_TXT %>
+                        <br>
+                        <%= translation.PAYMENT_POL_CLIENT %>
+                        <ul class="noborder">
+                            <li><%= translation.PAYMENT_POL_CLIENT_TXT %></li>
+                        </ul>
+                        <%= translation.PAYMENT_POL_COMPLETE %>
+                        <ul class="noborder">
+                            <li><%= translation.PAYMENT_POL_COMPLETE_TXT1 %></li>
+                            <li><%= translation.PAYMENT_POL_COMPLETE_TXT2 %></li>
+                        </ul>
+                    </li>
+
+                    <li><h3><%= translation.PAYMENT_POL_DEP %></h3>
+                        <%= translation.PAYMENT_POL_DEP_TXT %>
+                    </li>
+
+                    <li><h3><%= translation.PAYMENT_POL_TAX %></h3>
+                        <%= translation.PAYMENT_POL_TAX_TXT %>
+                    </li>
+
+
+                    <li><h3><%= translation.PAYMENT_POL_ONE %></h3>
+                        <%= translation.PAYMENT_POL_ONE_TXT %>
+                    </li>
+
+
+                </ul>
+
+
+            </div>
+
+
+        </div>
+    </div>
+</section>

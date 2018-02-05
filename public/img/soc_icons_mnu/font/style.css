@@ -1,0 +1,201 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?4g4j5');
+  src:  url('fonts/icomoon.eot?4g4j5#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?4g4j5') format('truetype'),
+    url('fonts/icomoon.woff?4g4j5') format('woff'),
+    url('fonts/icomoon.svg?4g4j5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    color: #268d46;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon-arrows:before {
+  font-size: 35px;
+  content: "\e914";
+  color: rgba(38, 141, 70, 0.6);
+}
+.icon-arrows:hover:before {
+  color: #268d46;
+  content: "\e914";
+}
+.icon-dollar-currency-symbol-svgrepo-com:before {
+  font-size: 30px;
+  content: "\e912";
+}
+.icon-fa-icon-ethereum:before {
+  font-size: 30px;
+  content: "\e913";
+}
+.icon-litecoin:before {
+   font-size: 30px;
+  content: "\e922";
+}
+.icon-brok:before {
+  font-size: 50px;
+  content: "\e901";
+}
+.icon-365:before {
+  font-size: 50px;
+  content: "\e902";
+}
+.icon-best-today:before {
+   font-size: 45px;
+  content: "\e903";
+}
+.icon-bitcoin-add:before {
+  font-size: 50px;
+  content: "\e904";
+}
+.icon-bitcoin-down:before {
+  font-size: 50px;
+  content: "\e905";
+}
+.icon-bitcoin-in-hand:before {
+  font-size: 50px;
+  content: "\e906";
+}
+.icon-bitcoin-up:before {
+  font-size: 55px;
+  content: "\e907";
+}
+.icon-bitcoin:before {
+  font-size: 39px !important;
+  content: "\e908";
+}
+.icon-call-answer:before {
+  font-size: 25px;
+  content: "\e909";
+}
+.icon-cart:before {
+  font-size: 155px;
+  content: "\e90a";
+}
+.icon-close-envelope:before {
+  font-size: 25px;
+  content: "\e911";
+}
+.icon-confidential:before {
+  font-size: 50px;
+  content: "\e90b";
+}
+.icon-facebook:before {
+    content: "\e90c"
+}
+
+.icon-fast:before {
+    font-size: 50px;
+    content: "\e90d"
+}
+
+.icon-get-profit:before {
+    font-size: 50px;
+    content: "\e90e"
+}
+
+.icon-line-chart:before {
+    font-size: 35px;
+    content: "\e90f"
+}
+
+.icon-mail:before {
+    font-size: 25px;
+    content: "\e910"
+}
+
+.icon-menu_ic_002:before {
+    content: "\e913"
+}
+
+.icon-menu_ic_003:before {
+    content: "\e914"
+}
+
+.icon-minimum-deals:before {
+    font-size: 50px;
+    content: "\e915"
+}
+
+.icon-money:before {
+    font-size: 35px;
+    content: "\e916"
+}
+
+.icon-online:before {
+    font-size: 50px;
+    content: "\e917"
+}
+
+.icon-pair-of-banknotes:before {
+    font-size: 35px;
+    content: "\e918"
+}
+
+.icon-Quote-data:before {
+    font-size: 50px;
+    content: "\e919"
+}
+
+.icon-start-trading-now:before {
+    font-size: 23px;
+    color: #fff;
+    content: "\e91a"
+}
+
+.nav_start_traiding:hover .icon-start-trading-now:before {
+    color: #e6e6e6
+}
+
+.icon-stock-increase:before {
+    content: "\e91b"
+}
+
+.icon-telegram:before {
+    content: "\e91c"
+}
+
+.icon-total-registred:before {
+    font-size: 36px;
+    content: "\e91d"
+}
+
+.icon-traders-online:before {
+    font-size: 36px;
+    content: "\e91e"
+}
+
+.icon-vk-social-logotype:before {
+    content: "\e91f"
+}
+
+.icon-youtube:before {
+    content: "\e920"
+}
+
+.icon-web:before {
+    font-size: 50px;
+    content: "\e921"
+}
+
+.icon-youtube:before, .icon-vk-social-logotype:before, .icon-telegram:before, .icon-facebook:before, .icon-bitcoin:before {
+    font-size: 35px
+}
+
+.icon-youtube:hover:before, .icon-vk-social-logotype:hover:before, .icon-telegram:hover:before, .icon-facebook:hover:before, .icon-bitcoin:hover:before {
+    color: #e6e6e6
+}
+
+.icon-traders-online, .icon-total-registred, .icon-best-today {
+    height: 44px
+}
