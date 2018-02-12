@@ -19,24 +19,30 @@ app.engine('ejs', require('ejs-locals'));
 app.set('views', path.join(__dirname, '/templates'));
 app.set('view engine', 'ejs');
 app.use(cookieParser());
-
  app.use(session({
   secret: 'secret',
   saveUninitialized: true,
   resave: true
 }));
+
  app.use(geolang({
   siteLangs: ["en","ru"],
   cookieLangName: 'ulang'
 }));
+
 app.use(i18n({
   translationsPath: path.join(__dirname, 'i18n'),
+
   siteLangs: ["en","ru"],
     cookieLangName: 'ulang',
     paramLangName : 'clang',
-  textsVarName: 'translation'
+  textsVarName: 'translation',
+    browserEnable : false
+
+
 
 }));
+
 app.use(express.favicon());
 if(app.get('env') == 'development') {
     app.use(express.logger('dev'));
@@ -49,7 +55,6 @@ app.use(express.urlencoded());
 app.use(express.session({ secret: 'your secret here' }));
 app.use(app.router);
 let up = true;
-let startNum = 900;
 let lastSum = 1500;
 let job = new CronJob({
    cronTime: '* * * * * *',
