@@ -147,57 +147,9 @@ if (one.classList.contains('active') && one_f.classList.contains('active')) {
     fontSizeH.style.fontSize = '1.20em';
 }
 
-
-// function matOp (a, b , op) {
-//         var res;
-//         if(op == '-') {
-//             res = a - b;
-//         }
-//         else if(op == '+') {
-//             res = a + b;
-//         }
-//         else if(op == '*') {
-//             res = a * b;
-//         }
-//         else if(op == "/"){
-//             if(b == 0){
-//                 res = false;
-//             }else{
-//             res = a / b;
-//         }}
-//         else{
-//             res = false;
-//         }
-//         return res;
-// }
-//
-// function rundomInt(min, max) {
-//     var length = max - min + 1;
-//     var rand = Math.floor(Math.random() * length) + min;
-//     return rand;
-// }
-//
-// function optOut(num){
-//       var op = ['-', '+', '*', '/'];
-//       return op[num];
-// }
-// var  x,y,op, code,res, answer;
-// for(var i = 0; i < 5; i++) {
-// x = rundomInt(3, 15);
-// y = rundomInt(3, 15);
-// code = rundomInt(0, 3);
-// op = optOut(code);
-//
-//        res = matOp(x, y, op ) ;
-//        answer = +prompt(x + ' ' + op + ' ' + y + " =?"  );
-//
-//        if(res == answer) {
-//            console.log('YEAH');
-//
-//        }
-//         else{
-//            console.log("NOOO" + x + ' ' + op + ' ' + y  + "=" + res);
-//        }
-//
-//
-// }
+(function() {
+    console.log(1);
+    setInterval((function(){console.log(2)}),1000);
+    setInterval((function(){console.log(3)}),0);
+    console.log(4);
+})();

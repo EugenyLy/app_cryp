@@ -1,4 +1,5 @@
 {
+  "TITLE": "Crypto broker. Registration in two clicks. Profitable investment in Bitcoin. Without verification. Daily 'no deposit bonus' on a real account- 500 satoshi.",
   "HOME": "HOME",
   "ABOUT": "About us",
   "FOR_TRAIDERS": "For traders",
@@ -230,6 +231,7 @@
   "WITHD_REF_COM": "The Company reserves the right to increase the processing time; in this case, the Company will notify the Client via any contact method indicated by the Client in his/her profile.",
   "WITHD_REF_UPON": "Upon money withdrawal Company's top priority are fast withdrawals to Clients. As a rule, the amount of commission for a trader is 0%, but upon high system load in order not to keep withdrawal transaction pending, commission at the expense of the Client may be applied (the most effective one to approve transaction). Also there are cases when the transaction is sent to the Client for free and with little commission, but during the confirmation time the system gets overloaded, and this transaction keeps pending for some time in the network, in this case you only have to wait for confirmations. If the Client is willing to get money with the highest commission (top priority) at his/her own expense, in order for the transaction to be approved within 20 minutes, then he/she has to indicate this in the withdrawal notes. Also if a Client is willing and sure to have 0% commission, then he/she should also indicate this in the withdrawal request.",
   "WITHD_REF_CLI": "The Client is able to withdraw funds only on the Bitcoin wallet.",
+  "WITHD_REF_ACT": "In case the trader has violated the accepted rules of the platform, the broker reserves the right not to withdraw the traded funds from the promotional 0.00000500 BTC.",
   "WITHD_REF_TOT": "The Client is totally responsible for the information he/she provides to the Company through the withdrawal form.",
 
 
