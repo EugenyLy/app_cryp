@@ -13,7 +13,7 @@
     <meta charset="utf-8">
 
     <title><%= blocks.title %></title>
-    <meta name="description" content=<%= translation.TITLE %>>
+    <meta name="description" content="<%= translation.TITLE %>">
 
     <!-- Bootstrap v3.3.4 Grid Styles -->
     <style>
@@ -1537,9 +1537,14 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12 footer_txt">
+                            <a class="foot-terms" href="/terms&conditions_partner">
+                                <h3><%= translation.Aff_PROG %></h3>
+                            </a>
+
                             <h4>
                                 <span><%= translation.RISK_WARN %></span> <%= translation.TEXT_FOOTER %>
                             </h4>
+
                             <h3 class="footer_anim_show">COPYRIGHT © <span>2018 CRYPTOBO.COM</span></h3>
                         </div>
                     </div>

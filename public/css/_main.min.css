@@ -65,6 +65,8 @@
 }
 
 .navbar_block .container {
+    position: relative;
+    z-index: 20;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -834,7 +836,9 @@ footer {
 .footer_select_language ul {
     padding: 0
 }
-
+.foot-terms {
+    color: #268d46;
+}
 .footer_select_language p {
     font-family: OpenSansSemiBold, sans-serif;
     font-size: .923em;

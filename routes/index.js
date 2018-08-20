@@ -2,6 +2,7 @@
 module.exports = function(app) {
   app.get('/', require('./frontpage').get);
   app.get('/about', require('./about').get);
+  app.get('/terms&conditions_partner', require('./terms&conditions_partner').get);
   app.get('/traders/cryptocurrency', require('./cryptocurrency').get);
   app.get('/traders/assets', require('./assets').get);
   app.get('/traders/faq', require('./faq').get);
@@ -12,6 +13,7 @@ module.exports = function(app) {
   app.get('/doc/privacy_policy', require('./privacy_policy').get);
   app.get('/doc/terms&conditions', require('./terms&conditions').get);
   app.get('/doc/bonus', require('./bonus').get);
+
 };
 
 
